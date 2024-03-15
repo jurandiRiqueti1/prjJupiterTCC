@@ -1,0 +1,8 @@
+/node_modules
+/build
+
+#arquivos de environment
+.env
+
+#arquivos de banco de dados temporários
+*.sqlite
