@@ -2,13 +2,13 @@
   "name": "prjjupitertcc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Jurandi Riqueti Junior",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/dotenv": "^8.2.0",
