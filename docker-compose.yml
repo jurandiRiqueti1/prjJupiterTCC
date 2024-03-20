@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: jupiter_dev_database
+    ports:
+      - '5433:5432'
+    environment:
+      - POSTGRES_DB=jupiter
+      - POSTGRES_USER=jupiter
+      - POSTGRES_PASSWORD=jupiter
